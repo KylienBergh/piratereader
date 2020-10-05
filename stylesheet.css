@@ -1,0 +1,161 @@
+
+
+body {
+	background: black;
+	font-family: 'Liberation Mono', 'Roboto Mono', monospace;
+	margin-top: 0;
+	}
+
+	* {
+	  box-sizing: border-box;
+	}
+
+
+	.fullpage {
+	  margin: 0px;
+	  padding: 0px;
+	  z-index: 1;
+	}
+
+		img {
+		width: 100%;
+		float: left;
+		margin-top: 0px;
+		padding-top: 0px;
+		}
+
+
+
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	a:hover {
+	  text-decoration: underline;
+	}
+
+
+	a:after {
+		color: red;
+	}
+
+
+
+		h2 {
+		    font-size: 50px;
+				font-style: normal;
+				font-weight: normal;
+		}
+
+
+
+
+
+	.about {
+		float: left;
+		width: 33.3%;
+		padding: 10px;
+		position: fixed;
+		z-index: 99;
+		margin-left: 1%;
+		text-align: left;
+	}
+
+
+	.index {
+		float: center;
+		width: 33.3%;
+		padding: 10px;
+		position: fixed;
+		z-index: 99;
+		margin-left: 33.3%;
+		text-align: center;
+	}
+
+	.print{
+		float: right;
+
+		width: 33.3%;
+		padding: 10px;
+		position: fixed;
+		z-index: 99;
+		margin-left: 66%;
+		text-align: right;
+	}
+
+
+
+	/* column division within collapsible */
+
+	.left_column {
+		float: left;
+		width: 50%;
+		overflow:scroll;
+		display: block;
+		margin-top: 3%;
+		margin-left: 5%;
+		position: absolute;
+		height: 80%;
+		text-align: left;
+	}
+
+	.right_column {
+		float: none;
+		margin-left: 65% ;
+		width: 32%;
+		overflow: scroll;
+		display: block;
+		margin-top: 3%;
+		text-align: left;
+		overflow:scroll;
+		height: 90%;
+
+		font-size: 12px;
+	}
+
+
+
+	.content {
+		position:fixed;
+		display: none;
+		overflow:scroll;
+		color: white;
+		height: 110%;
+		width: 110%;
+		z-index: -20;
+		background-color: black;
+		margin-left: -40px;
+		margin-top: -40px;
+		padding: 30px;
+		padding-right: 10%;
+
+	}
+
+
+	.content_index {
+		position:fixed;
+		display: none;
+		overflow:scroll;
+		color: white;
+		height: 110%;
+		width: 110%;
+		z-index: -20;
+		background-color: black;
+		margin-left: -40%;
+		margin-top: -40px;
+		padding: 30px;
+		padding-right: 10%;
+	}
+
+	.thumbnail {
+		width: 80px;
+		float: none;
+	}
+
+	/* gif image in colophon section */
+	.book_covers {
+		width: 90%;
+		float: none;
+	}
